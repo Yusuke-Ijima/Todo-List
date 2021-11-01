@@ -1,0 +1,59 @@
+* {
+  border-radius: 8px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  margin-right: 4px;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+  color: cornsilk;
+  cursor: pointer;
+}
+
+li {
+  margin-right: 4px;
+}
+
+.containar {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.incomplete-area {
+  background-color: rgb(255, 239, 219);
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.complete-area {
+  background-color: rgb(171, 239, 184);
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+  color: rgb(111, 91, 235);
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
